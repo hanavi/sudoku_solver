@@ -1,9 +1,10 @@
+#include "sudoku.h"
+
 #include <iostream>
 #include <vector>
 #include <memory>
 #include <algorithm>
 
-#include "sudoku.h"
 
 
 SudokuGrid::SudokuGrid()
@@ -252,7 +253,7 @@ std::unique_ptr<std::vector<int>> SudokuGrid::get_valid_numbers(int n)
     return out;
 }
 
-void SudokuGrid::solve(int i = 0)
+void SudokuGrid::solve(int i)
 {
     if (finished)
         return;

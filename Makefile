@@ -1,5 +1,5 @@
 
-CFLAGS=-fpermissive
+CFLAGS=-Wall -Werror
 
 all: main
 
@@ -11,3 +11,7 @@ main.o: main.cpp
 
 sudoku.o: sudoku.h sudoku.cpp
 	g++ $(CFLAGS) -c sudoku.cpp
+
+
+clean:
+	rm main *.o
