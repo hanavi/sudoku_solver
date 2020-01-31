@@ -1,0 +1,39 @@
+#ifndef SUDOKU_H
+#define SUDOKU_H
+
+#include <memory>
+#include <vector>
+
+class SudokuGrid
+{
+public:
+
+    SudokuGrid();
+    ~SudokuGrid(){};
+
+    int get_row(int n);
+    int get_column(int n);
+    int get_box(int n);
+
+    std::unique_ptr<std::vector<int>> get_elements_col(int n);
+    std::unique_ptr<std::vector<int>> get_elements_row(int n);
+    std::unique_ptr<std::vector<int>> get_elements_box(int n);
+
+    void print_grid();
+    void print_boxes();
+    void print_rows();
+    void print_cols();
+    void validate();
+
+    std::unique_ptr<std::vector<int>> get_valid_numbers(int n);
+    void solve(int i = 0);
+
+
+private:
+    std::vector<int> grid;
+
+    bool finished = false;
+
+};
+
+#endif
