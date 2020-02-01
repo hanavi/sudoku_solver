@@ -1,5 +1,9 @@
 # Simple Sudoku Solver
 
+This is a simple sudoku solver that reads in a sudoku grid from a file (format
+example below) and then can brute force a solution. It is very simple right now
+and more features may be added in the future.
+
 ## Input file example: grid.txt
 
 ```
@@ -22,7 +26,9 @@
 $ ./sudoku grid.txt
 ```
 
+### Before
 ![before screencap](images/screenshot.png)
 
+### Solved
 ![after screencap](images/screenshot2.png)
 
