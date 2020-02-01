@@ -14,4 +14,4 @@ sudoku.o: sudoku.h sudoku.cpp
 
 
 clean:
-	rm ssolver *.o
+	-@rm -rf *~ *.o ssolver 2>/dev/null || true

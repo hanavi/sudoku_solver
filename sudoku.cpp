@@ -7,37 +7,17 @@
 #include <algorithm>
 #include <string>
 
-
-
 SudokuGrid::SudokuGrid()
 {
+
     // for (int i = 0; i < 9; ++i)
     // {
-    //     for( int j = 0; j < 9; ++j )
+    //     for(int j = 0; j < 9; ++j)
     //     {
-    //         grid.push_back( get_box(i*9 + j));
+    //         grid.push_back(get_box(i*9 + j));
     //     }
     // }
 
-    // grid = { 6, 0, 0, 0, 3, 0, 0, 4, 0,
-    //          0, 0, 0, 0, 0, 2, 7, 0, 8,
-    //          0, 0, 0, 1, 0, 0, 0, 6, 0,
-    //          0, 0, 5, 6, 0, 0, 0, 9, 0,
-    //          8, 0, 0, 0, 7, 0, 0, 0, 4,
-    //          0, 7, 0, 0, 0, 1, 3, 0, 0,
-    //          0, 2, 0, 0, 0, 7, 0, 0, 0,
-    //          9, 0, 3, 4, 0, 0, 0, 0, 0,
-    //          0, 8, 0, 0, 2, 0, 0, 0, 9 };
-
-    // grid = { 0, 0, 0, 0, 0, 1, 0, 0, 2,
-    //          0, 0, 3, 0, 0, 0, 0, 4, 0,
-    //          0, 5, 0, 0, 6, 0, 7, 0, 0,
-    //          0, 0, 0, 8, 0, 0, 0, 7, 0,
-    //          0, 0, 7, 0, 0, 3, 8, 0, 0,
-    //          9, 0, 0, 0, 5, 0, 0, 0, 1,
-    //          0, 0, 6, 0, 8, 0, 2, 0, 0,
-    //          0, 4, 0, 6, 0, 0, 0, 0, 7,
-    //          2, 0, 0, 0, 0, 9, 0, 6, 0 };
 }
 
 void SudokuGrid::load_file(std::string filename)
@@ -48,8 +28,8 @@ void SudokuGrid::load_file(std::string filename)
       std::cout << "Failed to open file!" << std::endl;
       exit(-1);
    }
-   int tmp;
 
+   int tmp;
    for (int i = 0; i < 81; ++i)
    {
         file >> tmp;
@@ -118,11 +98,15 @@ std::unique_ptr<std::vector<int>> SudokuGrid::get_elements_box(int n)
 void SudokuGrid::print_grid()
 {
     int n;
+
     std::cout << std::endl;
-    std::cout << "---------------------" << std::endl;
-    std::cout << std::endl;
+    std::cout << "  -----------------------" << std::endl;
+    std::cout << " |                       |" << std::endl;
+
     for (int i = 0; i < 9; ++i)
     {
+
+        std::cout << " | ";
         for (int j = 0; j < 9; ++j)
         {
             n = grid[i*9 +j];
@@ -135,11 +119,12 @@ void SudokuGrid::print_grid()
                 std::cout << " ";
 
         }
-        std::cout << std::endl;
+        std::cout << " |" << std::endl;
         if ((i % 3) == 2)
-            std::cout << std::endl;
+            std::cout << " |                       |" << std::endl;
     }
-    std::cout << "---------------------" << std::endl;
+
+    std::cout << "  -----------------------" << std::endl;
     std::cout << std::endl;
 
 }
