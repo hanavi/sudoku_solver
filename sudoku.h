@@ -1,6 +1,7 @@
 #ifndef SUDOKU_H
 #define SUDOKU_H
 
+#include <string>
 #include <memory>
 #include <vector>
 
@@ -10,6 +11,8 @@ public:
 
     SudokuGrid();
     ~SudokuGrid(){};
+
+    void load_file(std::string filename);
 
     int get_row(int n);
     int get_column(int n);

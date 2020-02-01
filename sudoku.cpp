@@ -1,9 +1,11 @@
 #include "sudoku.h"
 
 #include <iostream>
+#include <fstream>
 #include <vector>
 #include <memory>
 #include <algorithm>
+#include <string>
 
 
 
@@ -17,15 +19,15 @@ SudokuGrid::SudokuGrid()
     //     }
     // }
 
-    grid = { 6, 0, 0, 0, 3, 0, 0, 4, 0,
-             0, 0, 0, 0, 0, 2, 7, 0, 8,
-             0, 0, 0, 1, 0, 0, 0, 6, 0,
-             0, 0, 5, 6, 0, 0, 0, 9, 0,
-             8, 0, 0, 0, 7, 0, 0, 0, 4,
-             0, 7, 0, 0, 0, 1, 3, 0, 0,
-             0, 2, 0, 0, 0, 7, 0, 0, 0,
-             9, 0, 3, 4, 0, 0, 0, 0, 0,
-             0, 8, 0, 0, 2, 0, 0, 0, 9 };
+    // grid = { 6, 0, 0, 0, 3, 0, 0, 4, 0,
+    //          0, 0, 0, 0, 0, 2, 7, 0, 8,
+    //          0, 0, 0, 1, 0, 0, 0, 6, 0,
+    //          0, 0, 5, 6, 0, 0, 0, 9, 0,
+    //          8, 0, 0, 0, 7, 0, 0, 0, 4,
+    //          0, 7, 0, 0, 0, 1, 3, 0, 0,
+    //          0, 2, 0, 0, 0, 7, 0, 0, 0,
+    //          9, 0, 3, 4, 0, 0, 0, 0, 0,
+    //          0, 8, 0, 0, 2, 0, 0, 0, 9 };
 
     // grid = { 0, 0, 0, 0, 0, 1, 0, 0, 2,
     //          0, 0, 3, 0, 0, 0, 0, 4, 0,
@@ -36,6 +38,24 @@ SudokuGrid::SudokuGrid()
     //          0, 0, 6, 0, 8, 0, 2, 0, 0,
     //          0, 4, 0, 6, 0, 0, 0, 0, 7,
     //          2, 0, 0, 0, 0, 9, 0, 6, 0 };
+}
+
+void SudokuGrid::load_file(std::string filename)
+{
+   std::ifstream file(filename, std::ifstream::in);
+   if (!file.is_open())
+   {
+      std::cout << "Failed to open file!" << std::endl;
+      exit(-1);
+   }
+   int tmp;
+
+   for (int i = 0; i < 81; ++i)
+   {
+        file >> tmp;
+        grid.push_back(tmp);
+   }
+
 }
 
 int SudokuGrid::get_row(int n)
@@ -97,6 +117,7 @@ std::unique_ptr<std::vector<int>> SudokuGrid::get_elements_box(int n)
 
 void SudokuGrid::print_grid()
 {
+    int n;
     std::cout << std::endl;
     std::cout << "---------------------" << std::endl;
     std::cout << std::endl;
@@ -104,7 +125,12 @@ void SudokuGrid::print_grid()
     {
         for (int j = 0; j < 9; ++j)
         {
-            std::cout << " " << grid[i*9 + j] ;
+            n = grid[i*9 +j];
+            if (n == 0)
+                std::cout << " .";
+            else
+                std::cout << " " << grid[i*9 + j] ;
+
             if (((i*9+j) % 3) == 2)
                 std::cout << " ";
 
