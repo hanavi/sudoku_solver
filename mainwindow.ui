@@ -71,10 +71,10 @@
       <widget class="QPushButton" name="grid_00">
        <property name="geometry">
         <rect>
-         <x>0</x>
-         <y>0</y>
-         <width>100</width>
-         <height>100</height>
+         <x>5</x>
+         <y>5</y>
+         <width>90</width>
+         <height>90</height>
         </rect>
        </property>
        <property name="font">
@@ -111,10 +111,10 @@
       <widget class="QPushButton" name="grid_01">
        <property name="geometry">
         <rect>
-         <x>0</x>
-         <y>0</y>
-         <width>100</width>
-         <height>100</height>
+         <x>5</x>
+         <y>5</y>
+         <width>90</width>
+         <height>90</height>
         </rect>
        </property>
        <property name="font">
@@ -151,10 +151,10 @@
       <widget class="QPushButton" name="grid_02">
        <property name="geometry">
         <rect>
-         <x>0</x>
-         <y>0</y>
-         <width>100</width>
-         <height>100</height>
+         <x>5</x>
+         <y>5</y>
+         <width>90</width>
+         <height>90</height>
         </rect>
        </property>
        <property name="font">
@@ -191,10 +191,10 @@
       <widget class="QPushButton" name="grid_09">
        <property name="geometry">
         <rect>
-         <x>0</x>
-         <y>0</y>
-         <width>100</width>
-         <height>100</height>
+         <x>5</x>
+         <y>5</y>
+         <width>90</width>
+         <height>90</height>
         </rect>
        </property>
        <property name="font">
@@ -231,10 +231,10 @@
       <widget class="QPushButton" name="grid_10">
        <property name="geometry">
         <rect>
-         <x>0</x>
-         <y>0</y>
-         <width>100</width>
-         <height>100</height>
+         <x>5</x>
+         <y>5</y>
+         <width>90</width>
+         <height>90</height>
         </rect>
        </property>
        <property name="font">
@@ -271,10 +271,10 @@
       <widget class="QPushButton" name="grid_11">
        <property name="geometry">
         <rect>
-         <x>0</x>
-         <y>0</y>
-         <width>100</width>
-         <height>100</height>
+         <x>5</x>
+         <y>5</y>
+         <width>90</width>
+         <height>90</height>
         </rect>
        </property>
        <property name="font">
@@ -311,10 +311,10 @@
       <widget class="QPushButton" name="grid_18">
        <property name="geometry">
         <rect>
-         <x>0</x>
-         <y>0</y>
-         <width>100</width>
-         <height>100</height>
+         <x>5</x>
+         <y>5</y>
+         <width>90</width>
+         <height>90</height>
         </rect>
        </property>
        <property name="font">
@@ -351,10 +351,10 @@
       <widget class="QPushButton" name="grid_19">
        <property name="geometry">
         <rect>
-         <x>0</x>
-         <y>0</y>
-         <width>100</width>
-         <height>100</height>
+         <x>5</x>
+         <y>5</y>
+         <width>90</width>
+         <height>90</height>
         </rect>
        </property>
        <property name="font">
@@ -391,10 +391,10 @@
       <widget class="QPushButton" name="grid_20">
        <property name="geometry">
         <rect>
-         <x>0</x>
-         <y>0</y>
-         <width>100</width>
-         <height>100</height>
+         <x>5</x>
+         <y>5</y>
+         <width>90</width>
+         <height>90</height>
         </rect>
        </property>
        <property name="font">
@@ -450,10 +450,10 @@
       <widget class="QPushButton" name="grid_03">
        <property name="geometry">
         <rect>
-         <x>0</x>
-         <y>0</y>
-         <width>100</width>
-         <height>100</height>
+         <x>5</x>
+         <y>5</y>
+         <width>90</width>
+         <height>90</height>
         </rect>
        </property>
        <property name="font">
@@ -490,10 +490,10 @@
       <widget class="QPushButton" name="grid_04">
        <property name="geometry">
         <rect>
-         <x>0</x>
-         <y>0</y>
-         <width>100</width>
-         <height>100</height>
+         <x>5</x>
+         <y>5</y>
+         <width>90</width>
+         <height>90</height>
         </rect>
        </property>
        <property name="font">
@@ -530,10 +530,10 @@
       <widget class="QPushButton" name="grid_05">
        <property name="geometry">
         <rect>
-         <x>0</x>
-         <y>0</y>
-         <width>100</width>
-         <height>100</height>
+         <x>5</x>
+         <y>5</y>
+         <width>90</width>
+         <height>90</height>
         </rect>
        </property>
        <property name="font">
@@ -570,10 +570,10 @@
       <widget class="QPushButton" name="grid_12">
        <property name="geometry">
         <rect>
-         <x>0</x>
-         <y>0</y>
-         <width>100</width>
-         <height>100</height>
+         <x>5</x>
+         <y>5</y>
+         <width>90</width>
+         <height>90</height>
         </rect>
        </property>
        <property name="font">
@@ -610,10 +610,10 @@
       <widget class="QPushButton" name="grid_13">
        <property name="geometry">
         <rect>
-         <x>0</x>
-         <y>0</y>
-         <width>100</width>
-         <height>100</height>
+         <x>5</x>
+         <y>5</y>
+         <width>90</width>
+         <height>90</height>
         </rect>
        </property>
        <property name="font">
@@ -650,10 +650,10 @@
       <widget class="QPushButton" name="grid_14">
        <property name="geometry">
         <rect>
-         <x>0</x>
-         <y>0</y>
-         <width>100</width>
-         <height>100</height>
+         <x>5</x>
+         <y>5</y>
+         <width>90</width>
+         <height>90</height>
         </rect>
        </property>
        <property name="font">
@@ -690,10 +690,10 @@
       <widget class="QPushButton" name="grid_21">
        <property name="geometry">
         <rect>
-         <x>0</x>
-         <y>0</y>
-         <width>100</width>
-         <height>100</height>
+         <x>5</x>
+         <y>5</y>
+         <width>90</width>
+         <height>90</height>
         </rect>
        </property>
        <property name="font">
@@ -730,10 +730,10 @@
       <widget class="QPushButton" name="grid_22">
        <property name="geometry">
         <rect>
-         <x>0</x>
-         <y>0</y>
-         <width>100</width>
-         <height>100</height>
+         <x>5</x>
+         <y>5</y>
+         <width>90</width>
+         <height>90</height>
         </rect>
        </property>
        <property name="font">
@@ -770,10 +770,10 @@
       <widget class="QPushButton" name="grid_23">
        <property name="geometry">
         <rect>
-         <x>0</x>
-         <y>0</y>
-         <width>100</width>
-         <height>100</height>
+         <x>5</x>
+         <y>5</y>
+         <width>90</width>
+         <height>90</height>
         </rect>
        </property>
        <property name="font">
@@ -829,10 +829,10 @@
       <widget class="QPushButton" name="grid_06">
        <property name="geometry">
         <rect>
-         <x>0</x>
-         <y>0</y>
-         <width>100</width>
-         <height>100</height>
+         <x>5</x>
+         <y>5</y>
+         <width>90</width>
+         <height>90</height>
         </rect>
        </property>
        <property name="font">
@@ -869,10 +869,10 @@
       <widget class="QPushButton" name="grid_07">
        <property name="geometry">
         <rect>
-         <x>0</x>
-         <y>0</y>
-         <width>100</width>
-         <height>100</height>
+         <x>5</x>
+         <y>5</y>
+         <width>90</width>
+         <height>90</height>
         </rect>
        </property>
        <property name="font">
@@ -909,10 +909,10 @@
       <widget class="QPushButton" name="grid_08">
        <property name="geometry">
         <rect>
-         <x>0</x>
-         <y>0</y>
-         <width>100</width>
-         <height>100</height>
+         <x>5</x>
+         <y>5</y>
+         <width>90</width>
+         <height>90</height>
         </rect>
        </property>
        <property name="font">
@@ -949,10 +949,10 @@
       <widget class="QPushButton" name="grid_15">
        <property name="geometry">
         <rect>
-         <x>0</x>
-         <y>0</y>
-         <width>100</width>
-         <height>100</height>
+         <x>5</x>
+         <y>5</y>
+         <width>90</width>
+         <height>90</height>
         </rect>
        </property>
        <property name="font">
@@ -989,10 +989,10 @@
       <widget class="QPushButton" name="grid_16">
        <property name="geometry">
         <rect>
-         <x>0</x>
-         <y>0</y>
-         <width>100</width>
-         <height>100</height>
+         <x>5</x>
+         <y>5</y>
+         <width>90</width>
+         <height>90</height>
         </rect>
        </property>
        <property name="font">
@@ -1029,10 +1029,10 @@
       <widget class="QPushButton" name="grid_17">
        <property name="geometry">
         <rect>
-         <x>0</x>
-         <y>0</y>
-         <width>100</width>
-         <height>100</height>
+         <x>5</x>
+         <y>5</y>
+         <width>90</width>
+         <height>90</height>
         </rect>
        </property>
        <property name="font">
@@ -1069,10 +1069,10 @@
       <widget class="QPushButton" name="grid_24">
        <property name="geometry">
         <rect>
-         <x>0</x>
-         <y>0</y>
-         <width>100</width>
-         <height>100</height>
+         <x>5</x>
+         <y>5</y>
+         <width>90</width>
+         <height>90</height>
         </rect>
        </property>
        <property name="font">
@@ -1109,10 +1109,10 @@
       <widget class="QPushButton" name="grid_25">
        <property name="geometry">
         <rect>
-         <x>0</x>
-         <y>0</y>
-         <width>100</width>
-         <height>100</height>
+         <x>5</x>
+         <y>5</y>
+         <width>90</width>
+         <height>90</height>
         </rect>
        </property>
        <property name="font">
@@ -1149,10 +1149,10 @@
       <widget class="QPushButton" name="grid_26">
        <property name="geometry">
         <rect>
-         <x>0</x>
-         <y>0</y>
-         <width>100</width>
-         <height>100</height>
+         <x>5</x>
+         <y>5</y>
+         <width>90</width>
+         <height>90</height>
         </rect>
        </property>
        <property name="font">
@@ -1208,10 +1208,10 @@
       <widget class="QPushButton" name="grid_27">
        <property name="geometry">
         <rect>
-         <x>0</x>
-         <y>0</y>
-         <width>100</width>
-         <height>100</height>
+         <x>5</x>
+         <y>5</y>
+         <width>90</width>
+         <height>90</height>
         </rect>
        </property>
        <property name="font">
@@ -1248,10 +1248,10 @@
       <widget class="QPushButton" name="grid_28">
        <property name="geometry">
         <rect>
-         <x>0</x>
-         <y>0</y>
-         <width>100</width>
-         <height>100</height>
+         <x>5</x>
+         <y>5</y>
+         <width>90</width>
+         <height>90</height>
         </rect>
        </property>
        <property name="font">
@@ -1288,10 +1288,10 @@
       <widget class="QPushButton" name="grid_29">
        <property name="geometry">
         <rect>
-         <x>0</x>
-         <y>0</y>
-         <width>100</width>
-         <height>100</height>
+         <x>5</x>
+         <y>5</y>
+         <width>90</width>
+         <height>90</height>
         </rect>
        </property>
        <property name="font">
@@ -1328,10 +1328,10 @@
       <widget class="QPushButton" name="grid_36">
        <property name="geometry">
         <rect>
-         <x>0</x>
-         <y>0</y>
-         <width>100</width>
-         <height>100</height>
+         <x>5</x>
+         <y>5</y>
+         <width>90</width>
+         <height>90</height>
         </rect>
        </property>
        <property name="font">
@@ -1368,10 +1368,10 @@
       <widget class="QPushButton" name="grid_37">
        <property name="geometry">
         <rect>
-         <x>0</x>
-         <y>0</y>
-         <width>100</width>
-         <height>100</height>
+         <x>5</x>
+         <y>5</y>
+         <width>90</width>
+         <height>90</height>
         </rect>
        </property>
        <property name="font">
@@ -1408,10 +1408,10 @@
       <widget class="QPushButton" name="grid_38">
        <property name="geometry">
         <rect>
-         <x>0</x>
-         <y>0</y>
-         <width>100</width>
-         <height>100</height>
+         <x>5</x>
+         <y>5</y>
+         <width>90</width>
+         <height>90</height>
         </rect>
        </property>
        <property name="font">
@@ -1448,10 +1448,10 @@
       <widget class="QPushButton" name="grid_45">
        <property name="geometry">
         <rect>
-         <x>0</x>
-         <y>0</y>
-         <width>100</width>
-         <height>100</height>
+         <x>5</x>
+         <y>5</y>
+         <width>90</width>
+         <height>90</height>
         </rect>
        </property>
        <property name="font">
@@ -1488,10 +1488,10 @@
       <widget class="QPushButton" name="grid_46">
        <property name="geometry">
         <rect>
-         <x>0</x>
-         <y>0</y>
-         <width>100</width>
-         <height>100</height>
+         <x>5</x>
+         <y>5</y>
+         <width>90</width>
+         <height>90</height>
         </rect>
        </property>
        <property name="font">
@@ -1528,10 +1528,10 @@
       <widget class="QPushButton" name="grid_47">
        <property name="geometry">
         <rect>
-         <x>0</x>
-         <y>0</y>
-         <width>100</width>
-         <height>100</height>
+         <x>5</x>
+         <y>5</y>
+         <width>90</width>
+         <height>90</height>
         </rect>
        </property>
        <property name="font">
@@ -1587,10 +1587,10 @@
       <widget class="QPushButton" name="grid_30">
        <property name="geometry">
         <rect>
-         <x>0</x>
-         <y>0</y>
-         <width>100</width>
-         <height>100</height>
+         <x>5</x>
+         <y>5</y>
+         <width>90</width>
+         <height>90</height>
         </rect>
        </property>
        <property name="font">
@@ -1627,10 +1627,10 @@
       <widget class="QPushButton" name="grid_31">
        <property name="geometry">
         <rect>
-         <x>0</x>
-         <y>0</y>
-         <width>100</width>
-         <height>100</height>
+         <x>5</x>
+         <y>5</y>
+         <width>90</width>
+         <height>90</height>
         </rect>
        </property>
        <property name="font">
@@ -1667,10 +1667,10 @@
       <widget class="QPushButton" name="grid_32">
        <property name="geometry">
         <rect>
-         <x>0</x>
-         <y>0</y>
-         <width>100</width>
-         <height>100</height>
+         <x>5</x>
+         <y>5</y>
+         <width>90</width>
+         <height>90</height>
         </rect>
        </property>
        <property name="font">
@@ -1707,10 +1707,10 @@
       <widget class="QPushButton" name="grid_39">
        <property name="geometry">
         <rect>
-         <x>0</x>
-         <y>0</y>
-         <width>100</width>
-         <height>100</height>
+         <x>5</x>
+         <y>5</y>
+         <width>90</width>
+         <height>90</height>
         </rect>
        </property>
        <property name="font">
@@ -1747,10 +1747,10 @@
       <widget class="QPushButton" name="grid_40">
        <property name="geometry">
         <rect>
-         <x>0</x>
-         <y>0</y>
-         <width>100</width>
-         <height>100</height>
+         <x>5</x>
+         <y>5</y>
+         <width>90</width>
+         <height>90</height>
         </rect>
        </property>
        <property name="font">
@@ -1787,10 +1787,10 @@
       <widget class="QPushButton" name="grid_41">
        <property name="geometry">
         <rect>
-         <x>0</x>
-         <y>0</y>
-         <width>100</width>
-         <height>100</height>
+         <x>5</x>
+         <y>5</y>
+         <width>90</width>
+         <height>90</height>
         </rect>
        </property>
        <property name="font">
@@ -1827,10 +1827,10 @@
       <widget class="QPushButton" name="grid_48">
        <property name="geometry">
         <rect>
-         <x>0</x>
-         <y>0</y>
-         <width>100</width>
-         <height>100</height>
+         <x>5</x>
+         <y>5</y>
+         <width>90</width>
+         <height>90</height>
         </rect>
        </property>
        <property name="font">
@@ -1867,10 +1867,10 @@
       <widget class="QPushButton" name="grid_49">
        <property name="geometry">
         <rect>
-         <x>0</x>
-         <y>0</y>
-         <width>100</width>
-         <height>100</height>
+         <x>5</x>
+         <y>5</y>
+         <width>90</width>
+         <height>90</height>
         </rect>
        </property>
        <property name="font">
@@ -1907,10 +1907,10 @@
       <widget class="QPushButton" name="grid_50">
        <property name="geometry">
         <rect>
-         <x>0</x>
-         <y>0</y>
-         <width>100</width>
-         <height>100</height>
+         <x>5</x>
+         <y>5</y>
+         <width>90</width>
+         <height>90</height>
         </rect>
        </property>
        <property name="font">
@@ -1966,10 +1966,10 @@
       <widget class="QPushButton" name="grid_33">
        <property name="geometry">
         <rect>
-         <x>0</x>
-         <y>0</y>
-         <width>100</width>
-         <height>100</height>
+         <x>5</x>
+         <y>5</y>
+         <width>90</width>
+         <height>90</height>
         </rect>
        </property>
        <property name="font">
@@ -2006,10 +2006,10 @@
       <widget class="QPushButton" name="grid_34">
        <property name="geometry">
         <rect>
-         <x>0</x>
-         <y>0</y>
-         <width>100</width>
-         <height>100</height>
+         <x>5</x>
+         <y>5</y>
+         <width>90</width>
+         <height>90</height>
         </rect>
        </property>
        <property name="font">
@@ -2046,10 +2046,10 @@
       <widget class="QPushButton" name="grid_35">
        <property name="geometry">
         <rect>
-         <x>0</x>
-         <y>0</y>
-         <width>100</width>
-         <height>100</height>
+         <x>5</x>
+         <y>5</y>
+         <width>90</width>
+         <height>90</height>
         </rect>
        </property>
        <property name="font">
@@ -2086,10 +2086,10 @@
       <widget class="QPushButton" name="grid_42">
        <property name="geometry">
         <rect>
-         <x>0</x>
-         <y>0</y>
-         <width>100</width>
-         <height>100</height>
+         <x>5</x>
+         <y>5</y>
+         <width>90</width>
+         <height>90</height>
         </rect>
        </property>
        <property name="font">
@@ -2126,10 +2126,10 @@
       <widget class="QPushButton" name="grid_43">
        <property name="geometry">
         <rect>
-         <x>0</x>
-         <y>0</y>
-         <width>100</width>
-         <height>100</height>
+         <x>5</x>
+         <y>5</y>
+         <width>90</width>
+         <height>90</height>
         </rect>
        </property>
        <property name="font">
@@ -2166,10 +2166,10 @@
       <widget class="QPushButton" name="grid_44">
        <property name="geometry">
         <rect>
-         <x>0</x>
-         <y>0</y>
-         <width>100</width>
-         <height>100</height>
+         <x>5</x>
+         <y>5</y>
+         <width>90</width>
+         <height>90</height>
         </rect>
        </property>
        <property name="font">
@@ -2206,10 +2206,10 @@
       <widget class="QPushButton" name="grid_51">
        <property name="geometry">
         <rect>
-         <x>0</x>
-         <y>0</y>
-         <width>100</width>
-         <height>100</height>
+         <x>5</x>
+         <y>5</y>
+         <width>90</width>
+         <height>90</height>
         </rect>
        </property>
        <property name="font">
@@ -2246,10 +2246,10 @@
       <widget class="QPushButton" name="grid_52">
        <property name="geometry">
         <rect>
-         <x>0</x>
-         <y>0</y>
-         <width>100</width>
-         <height>100</height>
+         <x>5</x>
+         <y>5</y>
+         <width>90</width>
+         <height>90</height>
         </rect>
        </property>
        <property name="font">
@@ -2286,10 +2286,10 @@
       <widget class="QPushButton" name="grid_53">
        <property name="geometry">
         <rect>
-         <x>0</x>
-         <y>0</y>
-         <width>100</width>
-         <height>100</height>
+         <x>5</x>
+         <y>5</y>
+         <width>90</width>
+         <height>90</height>
         </rect>
        </property>
        <property name="font">
@@ -2345,10 +2345,10 @@
       <widget class="QPushButton" name="grid_54">
        <property name="geometry">
         <rect>
-         <x>0</x>
-         <y>0</y>
-         <width>100</width>
-         <height>100</height>
+         <x>5</x>
+         <y>5</y>
+         <width>90</width>
+         <height>90</height>
         </rect>
        </property>
        <property name="font">
@@ -2385,10 +2385,10 @@
       <widget class="QPushButton" name="grid_55">
        <property name="geometry">
         <rect>
-         <x>0</x>
-         <y>0</y>
-         <width>100</width>
-         <height>100</height>
+         <x>5</x>
+         <y>5</y>
+         <width>90</width>
+         <height>90</height>
         </rect>
        </property>
        <property name="font">
@@ -2425,10 +2425,10 @@
       <widget class="QPushButton" name="grid_56">
        <property name="geometry">
         <rect>
-         <x>0</x>
-         <y>0</y>
-         <width>100</width>
-         <height>100</height>
+         <x>5</x>
+         <y>5</y>
+         <width>90</width>
+         <height>90</height>
         </rect>
        </property>
        <property name="font">
@@ -2465,10 +2465,10 @@
       <widget class="QPushButton" name="grid_63">
        <property name="geometry">
         <rect>
-         <x>0</x>
-         <y>0</y>
-         <width>100</width>
-         <height>100</height>
+         <x>5</x>
+         <y>5</y>
+         <width>90</width>
+         <height>90</height>
         </rect>
        </property>
        <property name="font">
@@ -2505,10 +2505,10 @@
       <widget class="QPushButton" name="grid_64">
        <property name="geometry">
         <rect>
-         <x>0</x>
-         <y>0</y>
-         <width>100</width>
-         <height>100</height>
+         <x>5</x>
+         <y>5</y>
+         <width>90</width>
+         <height>90</height>
         </rect>
        </property>
        <property name="font">
@@ -2545,10 +2545,10 @@
       <widget class="QPushButton" name="grid_65">
        <property name="geometry">
         <rect>
-         <x>0</x>
-         <y>0</y>
-         <width>100</width>
-         <height>100</height>
+         <x>5</x>
+         <y>5</y>
+         <width>90</width>
+         <height>90</height>
         </rect>
        </property>
        <property name="font">
@@ -2585,10 +2585,10 @@
       <widget class="QPushButton" name="grid_72">
        <property name="geometry">
         <rect>
-         <x>0</x>
-         <y>0</y>
-         <width>100</width>
-         <height>100</height>
+         <x>5</x>
+         <y>5</y>
+         <width>90</width>
+         <height>90</height>
         </rect>
        </property>
        <property name="font">
@@ -2625,10 +2625,10 @@
       <widget class="QPushButton" name="grid_73">
        <property name="geometry">
         <rect>
-         <x>0</x>
-         <y>0</y>
-         <width>100</width>
-         <height>100</height>
+         <x>5</x>
+         <y>5</y>
+         <width>90</width>
+         <height>90</height>
         </rect>
        </property>
        <property name="font">
@@ -2665,10 +2665,10 @@
       <widget class="QPushButton" name="grid_74">
        <property name="geometry">
         <rect>
-         <x>0</x>
-         <y>0</y>
-         <width>100</width>
-         <height>100</height>
+         <x>5</x>
+         <y>5</y>
+         <width>90</width>
+         <height>90</height>
         </rect>
        </property>
        <property name="font">
@@ -2724,10 +2724,10 @@
       <widget class="QPushButton" name="grid_57">
        <property name="geometry">
         <rect>
-         <x>0</x>
-         <y>0</y>
-         <width>100</width>
-         <height>100</height>
+         <x>5</x>
+         <y>5</y>
+         <width>90</width>
+         <height>90</height>
         </rect>
        </property>
        <property name="font">
@@ -2764,10 +2764,10 @@
       <widget class="QPushButton" name="grid_58">
        <property name="geometry">
         <rect>
-         <x>0</x>
-         <y>0</y>
-         <width>100</width>
-         <height>100</height>
+         <x>5</x>
+         <y>5</y>
+         <width>90</width>
+         <height>90</height>
         </rect>
        </property>
        <property name="font">
@@ -2804,10 +2804,10 @@
       <widget class="QPushButton" name="grid_59">
        <property name="geometry">
         <rect>
-         <x>0</x>
-         <y>0</y>
-         <width>100</width>
-         <height>100</height>
+         <x>5</x>
+         <y>5</y>
+         <width>90</width>
+         <height>90</height>
         </rect>
        </property>
        <property name="font">
@@ -2844,10 +2844,10 @@
       <widget class="QPushButton" name="grid_66">
        <property name="geometry">
         <rect>
-         <x>0</x>
-         <y>0</y>
-         <width>100</width>
-         <height>100</height>
+         <x>5</x>
+         <y>5</y>
+         <width>90</width>
+         <height>90</height>
         </rect>
        </property>
        <property name="font">
@@ -2884,10 +2884,10 @@
       <widget class="QPushButton" name="grid_67">
        <property name="geometry">
         <rect>
-         <x>0</x>
-         <y>0</y>
-         <width>100</width>
-         <height>100</height>
+         <x>5</x>
+         <y>5</y>
+         <width>90</width>
+         <height>90</height>
         </rect>
        </property>
        <property name="font">
@@ -2924,10 +2924,10 @@
       <widget class="QPushButton" name="grid_68">
        <property name="geometry">
         <rect>
-         <x>0</x>
-         <y>0</y>
-         <width>100</width>
-         <height>100</height>
+         <x>5</x>
+         <y>5</y>
+         <width>90</width>
+         <height>90</height>
         </rect>
        </property>
        <property name="font">
@@ -2964,10 +2964,10 @@
       <widget class="QPushButton" name="grid_75">
        <property name="geometry">
         <rect>
-         <x>0</x>
-         <y>0</y>
-         <width>100</width>
-         <height>100</height>
+         <x>5</x>
+         <y>5</y>
+         <width>90</width>
+         <height>90</height>
         </rect>
        </property>
        <property name="font">
@@ -3004,10 +3004,10 @@
       <widget class="QPushButton" name="grid_76">
        <property name="geometry">
         <rect>
-         <x>0</x>
-         <y>0</y>
-         <width>100</width>
-         <height>100</height>
+         <x>5</x>
+         <y>5</y>
+         <width>90</width>
+         <height>90</height>
         </rect>
        </property>
        <property name="font">
@@ -3044,10 +3044,10 @@
       <widget class="QPushButton" name="grid_77">
        <property name="geometry">
         <rect>
-         <x>0</x>
-         <y>0</y>
-         <width>100</width>
-         <height>100</height>
+         <x>5</x>
+         <y>5</y>
+         <width>90</width>
+         <height>90</height>
         </rect>
        </property>
        <property name="font">
@@ -3103,10 +3103,10 @@
       <widget class="QPushButton" name="grid_60">
        <property name="geometry">
         <rect>
-         <x>0</x>
-         <y>0</y>
-         <width>100</width>
-         <height>100</height>
+         <x>5</x>
+         <y>5</y>
+         <width>90</width>
+         <height>90</height>
         </rect>
        </property>
        <property name="font">
@@ -3143,10 +3143,10 @@
       <widget class="QPushButton" name="grid_61">
        <property name="geometry">
         <rect>
-         <x>0</x>
-         <y>0</y>
-         <width>100</width>
-         <height>100</height>
+         <x>5</x>
+         <y>5</y>
+         <width>90</width>
+         <height>90</height>
         </rect>
        </property>
        <property name="font">
@@ -3183,10 +3183,10 @@
       <widget class="QPushButton" name="grid_62">
        <property name="geometry">
         <rect>
-         <x>0</x>
-         <y>0</y>
-         <width>100</width>
-         <height>100</height>
+         <x>5</x>
+         <y>5</y>
+         <width>90</width>
+         <height>90</height>
         </rect>
        </property>
        <property name="font">
@@ -3223,10 +3223,10 @@
       <widget class="QPushButton" name="grid_69">
        <property name="geometry">
         <rect>
-         <x>0</x>
-         <y>0</y>
-         <width>100</width>
-         <height>100</height>
+         <x>5</x>
+         <y>5</y>
+         <width>90</width>
+         <height>90</height>
         </rect>
        </property>
        <property name="font">
@@ -3263,10 +3263,10 @@
       <widget class="QPushButton" name="grid_70">
        <property name="geometry">
         <rect>
-         <x>0</x>
-         <y>0</y>
-         <width>100</width>
-         <height>100</height>
+         <x>5</x>
+         <y>5</y>
+         <width>90</width>
+         <height>90</height>
         </rect>
        </property>
        <property name="font">
@@ -3303,10 +3303,10 @@
       <widget class="QPushButton" name="grid_71">
        <property name="geometry">
         <rect>
-         <x>0</x>
-         <y>0</y>
-         <width>100</width>
-         <height>100</height>
+         <x>5</x>
+         <y>5</y>
+         <width>90</width>
+         <height>90</height>
         </rect>
        </property>
        <property name="font">
@@ -3343,10 +3343,10 @@
       <widget class="QPushButton" name="grid_78">
        <property name="geometry">
         <rect>
-         <x>0</x>
-         <y>0</y>
-         <width>100</width>
-         <height>100</height>
+         <x>5</x>
+         <y>5</y>
+         <width>90</width>
+         <height>90</height>
         </rect>
        </property>
        <property name="font">
@@ -3383,10 +3383,10 @@
       <widget class="QPushButton" name="grid_79">
        <property name="geometry">
         <rect>
-         <x>0</x>
-         <y>0</y>
-         <width>100</width>
-         <height>100</height>
+         <x>5</x>
+         <y>5</y>
+         <width>90</width>
+         <height>90</height>
         </rect>
        </property>
        <property name="font">
@@ -3423,10 +3423,10 @@
       <widget class="QPushButton" name="grid_80">
        <property name="geometry">
         <rect>
-         <x>0</x>
-         <y>0</y>
-         <width>100</width>
-         <height>100</height>
+         <x>5</x>
+         <y>5</y>
+         <width>90</width>
+         <height>90</height>
         </rect>
        </property>
        <property name="font">

@@ -9,15 +9,6 @@
 
 SudokuGrid::SudokuGrid()
 {
-
-    // for (int i = 0; i < 9; ++i)
-    // {
-    //     for(int j = 0; j < 9; ++j)
-    //     {
-    //         grid.push_back(get_box(i*9 + j));
-    //     }
-    // }
-
 }
 
 void SudokuGrid::load_file(std::string filename)

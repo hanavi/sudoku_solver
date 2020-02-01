@@ -44,26 +44,18 @@ void MainWindow::keyPressEvent(QKeyEvent *e)
     if(!current_grid_button)
         return;
 
-    // std::cout << e->text().toUInt() << std::endl;
-    // std::cout << e->text().toStdString() << std::endl;
     int n = e->key();
-    // std::cout << e->key() << std::endl;
     if ((n < 48) || (n > 58))
         return;
 
-    int k = atoi(current_grid_button->objectName().toStdString().substr(5,7).c_str());
-
-    // std::cout << k << std::endl;
     n -= 48;
+
+    int k = atoi(current_grid_button->objectName().toStdString().substr(5,7).c_str());
 
     grid.set_entry(k, n);
 
-    // std::cout << n << std::endl;
-
-
     update_grid();
-    // QGraphicsView::keyPressEvent(e);
-    // current_grid_button->setText(std:string.number(n));
+
 }
 
 void MainWindow::load_grid(SudokuGrid& tmp_grid)
@@ -122,18 +114,13 @@ void MainWindow::gridClicked()
     QObject *senderObj = sender(); // This will give Sender object
     QString senderObjName = senderObj->objectName();
 
-    // grid_buttons[senderObjName.toStdString()]
-
-    // std::cout << senderObjName.toStdString() << std::endl;
-    // ui->grid_00->setText("X");
-
     QPalette pal = palette();
-    pal.setColor(QPalette::Button, Qt::cyan);
+    // pal.setColor(QPalette::Button, Qt::cyan);
+    pal.setColor(QPalette::Button, QColor(0, 191, 255,255));
 
     if(current_grid_button)
     {
         current_grid_button->setAutoFillBackground(false);
-        // current_grid_button->setPalette(pal);
         current_grid_button->update();
     }
 
@@ -141,8 +128,6 @@ void MainWindow::gridClicked()
     current_grid_button->setAutoFillBackground(true);
     current_grid_button->setPalette(pal);
     current_grid_button->update();
-
-    // grid_buttons[senderObjName.toStdString()]->setStyleSheet("background-color: rgb(255,0,0);");
 
 }
 
