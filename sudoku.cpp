@@ -3,8 +3,8 @@
 #include <iostream>
 #include <fstream>
 #include <vector>
-#include <memory>
 #include <algorithm>
+#include <memory>
 #include <string>
 
 SudokuGrid::SudokuGrid()
@@ -282,7 +282,8 @@ void SudokuGrid::solve(int i)
     if (i == 81)
     {
         finished = true;
-        print_grid();
+        solved_grid = grid;
+        // print_grid();
         return;
     }
 
@@ -305,4 +306,17 @@ void SudokuGrid::solve(int i)
             grid[i] = 0;
         }
     }
+}
+
+int SudokuGrid::get_entry(int n)
+{
+   return grid[n];
+}
+
+int SudokuGrid::get_solution(int n)
+{
+   if (!finished)
+      return grid[n];
+   else
+      return solved_grid[n];
 }

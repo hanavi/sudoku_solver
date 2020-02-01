@@ -1,28 +1,23 @@
+#include "mainwindow.h"
 #include "sudoku.h"
-#include <iostream>
+
+#include <QApplication>
+#include <string>
 
 int main(int argc, char *argv[])
 {
+    if (argc == 1)
+        exit(-1);
 
-    std::string filename;
+    std::string filename = argv[1];
 
-    if (argc > 1)
-        filename = argv[1];
-    else
-        return -1;
-
+    QApplication a(argc, argv);
+    MainWindow w;
 
     SudokuGrid grid;
     grid.load_file(filename);
-    grid.print_grid();
-    // grid.print_boxes();
-    // grid.print_rows();
-    // grid.print_cols();
 
-    // grid.validate();
-
-    // grid.get_valid_numbers(1);
-    grid.solve();
-
-    return 0;
+    w.load_grid(grid);
+    w.show();
+    return a.exec();
 }

@@ -28,12 +28,16 @@ public:
     void print_cols();
     void validate();
 
+    int get_entry(int n);
+    int get_solution(int n);
+
     std::unique_ptr<std::vector<int>> get_valid_numbers(int n);
     void solve(int i = 0);
 
 
 private:
     std::vector<int> grid;
+    std::vector<int> solved_grid;
 
     bool finished = false;
 
