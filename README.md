@@ -18,5 +18,5 @@
 
 ## Running
 
-[solver screencap](images/screenshot.png)
+![solver screencap](images/screenshot.png)
 
