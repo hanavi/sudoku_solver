@@ -2,6 +2,10 @@
 #define MAINWINDOW_H
 
 #include <QMainWindow>
+#include <QPushButton>
+#include <map>
+#include <string>
+
 #include "sudoku.h"
 
 QT_BEGIN_NAMESPACE
@@ -24,8 +28,19 @@ public slots:
   void exitClicked();
   void resetClicked();
 
+  void gridClicked();
+
 private:
-    Ui::MainWindow *ui;
-    SudokuGrid grid;
+  void setUpGridButtons();
+  Ui::MainWindow *ui;
+  SudokuGrid grid;
+
+  std::map<std::string, QPushButton *> grid_buttons;
+
+  QPushButton *current_grid_button = nullptr;
+
+protected:
+  void keyPressEvent(QKeyEvent *);
+
 };
 #endif // MAINWINDOW_H

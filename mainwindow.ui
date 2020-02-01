@@ -68,7 +68,7 @@
       <property name="frameShadow">
        <enum>QFrame::Raised</enum>
       </property>
-      <widget class="QLabel" name="grid_00">
+      <widget class="QPushButton" name="grid_00">
        <property name="geometry">
         <rect>
          <x>0</x>
@@ -88,11 +88,8 @@
        <property name="text">
         <string>0</string>
        </property>
-       <property name="scaledContents">
-        <bool>false</bool>
-       </property>
-       <property name="alignment">
-        <set>Qt::AlignCenter</set>
+       <property name="flat">
+        <bool>true</bool>
        </property>
       </widget>
      </widget>
@@ -111,7 +108,7 @@
       <property name="frameShadow">
        <enum>QFrame::Raised</enum>
       </property>
-      <widget class="QLabel" name="grid_01">
+      <widget class="QPushButton" name="grid_01">
        <property name="geometry">
         <rect>
          <x>0</x>
@@ -131,11 +128,8 @@
        <property name="text">
         <string>0</string>
        </property>
-       <property name="scaledContents">
-        <bool>false</bool>
-       </property>
-       <property name="alignment">
-        <set>Qt::AlignCenter</set>
+       <property name="flat">
+        <bool>true</bool>
        </property>
       </widget>
      </widget>
@@ -154,7 +148,7 @@
       <property name="frameShadow">
        <enum>QFrame::Raised</enum>
       </property>
-      <widget class="QLabel" name="grid_02">
+      <widget class="QPushButton" name="grid_02">
        <property name="geometry">
         <rect>
          <x>0</x>
@@ -174,11 +168,8 @@
        <property name="text">
         <string>0</string>
        </property>
-       <property name="scaledContents">
-        <bool>false</bool>
-       </property>
-       <property name="alignment">
-        <set>Qt::AlignCenter</set>
+       <property name="flat">
+        <bool>true</bool>
        </property>
       </widget>
      </widget>
@@ -197,7 +188,7 @@
       <property name="frameShadow">
        <enum>QFrame::Raised</enum>
       </property>
-      <widget class="QLabel" name="grid_09">
+      <widget class="QPushButton" name="grid_09">
        <property name="geometry">
         <rect>
          <x>0</x>
@@ -217,11 +208,8 @@
        <property name="text">
         <string>0</string>
        </property>
-       <property name="scaledContents">
-        <bool>false</bool>
-       </property>
-       <property name="alignment">
-        <set>Qt::AlignCenter</set>
+       <property name="flat">
+        <bool>true</bool>
        </property>
       </widget>
      </widget>
@@ -240,7 +228,7 @@
       <property name="frameShadow">
        <enum>QFrame::Raised</enum>
       </property>
-      <widget class="QLabel" name="grid_10">
+      <widget class="QPushButton" name="grid_10">
        <property name="geometry">
         <rect>
          <x>0</x>
@@ -260,11 +248,8 @@
        <property name="text">
         <string>0</string>
        </property>
-       <property name="scaledContents">
-        <bool>false</bool>
-       </property>
-       <property name="alignment">
-        <set>Qt::AlignCenter</set>
+       <property name="flat">
+        <bool>true</bool>
        </property>
       </widget>
      </widget>
@@ -283,7 +268,7 @@
       <property name="frameShadow">
        <enum>QFrame::Raised</enum>
       </property>
-      <widget class="QLabel" name="grid_11">
+      <widget class="QPushButton" name="grid_11">
        <property name="geometry">
         <rect>
          <x>0</x>
@@ -303,11 +288,8 @@
        <property name="text">
         <string>0</string>
        </property>
-       <property name="scaledContents">
-        <bool>false</bool>
-       </property>
-       <property name="alignment">
-        <set>Qt::AlignCenter</set>
+       <property name="flat">
+        <bool>true</bool>
        </property>
       </widget>
      </widget>
@@ -326,7 +308,7 @@
       <property name="frameShadow">
        <enum>QFrame::Raised</enum>
       </property>
-      <widget class="QLabel" name="grid_18">
+      <widget class="QPushButton" name="grid_18">
        <property name="geometry">
         <rect>
          <x>0</x>
@@ -346,11 +328,8 @@
        <property name="text">
         <string>0</string>
        </property>
-       <property name="scaledContents">
-        <bool>false</bool>
-       </property>
-       <property name="alignment">
-        <set>Qt::AlignCenter</set>
+       <property name="flat">
+        <bool>true</bool>
        </property>
       </widget>
      </widget>
@@ -369,7 +348,7 @@
       <property name="frameShadow">
        <enum>QFrame::Raised</enum>
       </property>
-      <widget class="QLabel" name="grid_19">
+      <widget class="QPushButton" name="grid_19">
        <property name="geometry">
         <rect>
          <x>0</x>
@@ -389,11 +368,8 @@
        <property name="text">
         <string>0</string>
        </property>
-       <property name="scaledContents">
-        <bool>false</bool>
-       </property>
-       <property name="alignment">
-        <set>Qt::AlignCenter</set>
+       <property name="flat">
+        <bool>true</bool>
        </property>
       </widget>
      </widget>
@@ -412,7 +388,7 @@
       <property name="frameShadow">
        <enum>QFrame::Raised</enum>
       </property>
-      <widget class="QLabel" name="grid_20">
+      <widget class="QPushButton" name="grid_20">
        <property name="geometry">
         <rect>
          <x>0</x>
@@ -432,11 +408,8 @@
        <property name="text">
         <string>0</string>
        </property>
-       <property name="scaledContents">
-        <bool>false</bool>
-       </property>
-       <property name="alignment">
-        <set>Qt::AlignCenter</set>
+       <property name="flat">
+        <bool>true</bool>
        </property>
       </widget>
      </widget>
@@ -474,7 +447,7 @@
       <property name="frameShadow">
        <enum>QFrame::Raised</enum>
       </property>
-      <widget class="QLabel" name="grid_03">
+      <widget class="QPushButton" name="grid_03">
        <property name="geometry">
         <rect>
          <x>0</x>
@@ -494,11 +467,8 @@
        <property name="text">
         <string>0</string>
        </property>
-       <property name="scaledContents">
-        <bool>false</bool>
-       </property>
-       <property name="alignment">
-        <set>Qt::AlignCenter</set>
+       <property name="flat">
+        <bool>true</bool>
        </property>
       </widget>
      </widget>
@@ -517,7 +487,7 @@
       <property name="frameShadow">
        <enum>QFrame::Raised</enum>
       </property>
-      <widget class="QLabel" name="grid_04">
+      <widget class="QPushButton" name="grid_04">
        <property name="geometry">
         <rect>
          <x>0</x>
@@ -537,11 +507,8 @@
        <property name="text">
         <string>0</string>
        </property>
-       <property name="scaledContents">
-        <bool>false</bool>
-       </property>
-       <property name="alignment">
-        <set>Qt::AlignCenter</set>
+       <property name="flat">
+        <bool>true</bool>
        </property>
       </widget>
      </widget>
@@ -560,7 +527,7 @@
       <property name="frameShadow">
        <enum>QFrame::Raised</enum>
       </property>
-      <widget class="QLabel" name="grid_05">
+      <widget class="QPushButton" name="grid_05">
        <property name="geometry">
         <rect>
          <x>0</x>
@@ -580,11 +547,8 @@
        <property name="text">
         <string>0</string>
        </property>
-       <property name="scaledContents">
-        <bool>false</bool>
-       </property>
-       <property name="alignment">
-        <set>Qt::AlignCenter</set>
+       <property name="flat">
+        <bool>true</bool>
        </property>
       </widget>
      </widget>
@@ -603,7 +567,7 @@
       <property name="frameShadow">
        <enum>QFrame::Raised</enum>
       </property>
-      <widget class="QLabel" name="grid_12">
+      <widget class="QPushButton" name="grid_12">
        <property name="geometry">
         <rect>
          <x>0</x>
@@ -623,11 +587,8 @@
        <property name="text">
         <string>0</string>
        </property>
-       <property name="scaledContents">
-        <bool>false</bool>
-       </property>
-       <property name="alignment">
-        <set>Qt::AlignCenter</set>
+       <property name="flat">
+        <bool>true</bool>
        </property>
       </widget>
      </widget>
@@ -646,7 +607,7 @@
       <property name="frameShadow">
        <enum>QFrame::Raised</enum>
       </property>
-      <widget class="QLabel" name="grid_13">
+      <widget class="QPushButton" name="grid_13">
        <property name="geometry">
         <rect>
          <x>0</x>
@@ -666,11 +627,8 @@
        <property name="text">
         <string>0</string>
        </property>
-       <property name="scaledContents">
-        <bool>false</bool>
-       </property>
-       <property name="alignment">
-        <set>Qt::AlignCenter</set>
+       <property name="flat">
+        <bool>true</bool>
        </property>
       </widget>
      </widget>
@@ -689,7 +647,7 @@
       <property name="frameShadow">
        <enum>QFrame::Raised</enum>
       </property>
-      <widget class="QLabel" name="grid_14">
+      <widget class="QPushButton" name="grid_14">
        <property name="geometry">
         <rect>
          <x>0</x>
@@ -709,11 +667,8 @@
        <property name="text">
         <string>0</string>
        </property>
-       <property name="scaledContents">
-        <bool>false</bool>
-       </property>
-       <property name="alignment">
-        <set>Qt::AlignCenter</set>
+       <property name="flat">
+        <bool>true</bool>
        </property>
       </widget>
      </widget>
@@ -732,7 +687,7 @@
       <property name="frameShadow">
        <enum>QFrame::Raised</enum>
       </property>
-      <widget class="QLabel" name="grid_21">
+      <widget class="QPushButton" name="grid_21">
        <property name="geometry">
         <rect>
          <x>0</x>
@@ -752,11 +707,8 @@
        <property name="text">
         <string>0</string>
        </property>
-       <property name="scaledContents">
-        <bool>false</bool>
-       </property>
-       <property name="alignment">
-        <set>Qt::AlignCenter</set>
+       <property name="flat">
+        <bool>true</bool>
        </property>
       </widget>
      </widget>
@@ -775,7 +727,7 @@
       <property name="frameShadow">
        <enum>QFrame::Raised</enum>
       </property>
-      <widget class="QLabel" name="grid_22">
+      <widget class="QPushButton" name="grid_22">
        <property name="geometry">
         <rect>
          <x>0</x>
@@ -795,11 +747,8 @@
        <property name="text">
         <string>0</string>
        </property>
-       <property name="scaledContents">
-        <bool>false</bool>
-       </property>
-       <property name="alignment">
-        <set>Qt::AlignCenter</set>
+       <property name="flat">
+        <bool>true</bool>
        </property>
       </widget>
      </widget>
@@ -818,7 +767,7 @@
       <property name="frameShadow">
        <enum>QFrame::Raised</enum>
       </property>
-      <widget class="QLabel" name="grid_23">
+      <widget class="QPushButton" name="grid_23">
        <property name="geometry">
         <rect>
          <x>0</x>
@@ -838,11 +787,8 @@
        <property name="text">
         <string>0</string>
        </property>
-       <property name="scaledContents">
-        <bool>false</bool>
-       </property>
-       <property name="alignment">
-        <set>Qt::AlignCenter</set>
+       <property name="flat">
+        <bool>true</bool>
        </property>
       </widget>
      </widget>
@@ -880,7 +826,7 @@
       <property name="frameShadow">
        <enum>QFrame::Raised</enum>
       </property>
-      <widget class="QLabel" name="grid_06">
+      <widget class="QPushButton" name="grid_06">
        <property name="geometry">
         <rect>
          <x>0</x>
@@ -900,11 +846,8 @@
        <property name="text">
         <string>0</string>
        </property>
-       <property name="scaledContents">
-        <bool>false</bool>
-       </property>
-       <property name="alignment">
-        <set>Qt::AlignCenter</set>
+       <property name="flat">
+        <bool>true</bool>
        </property>
       </widget>
      </widget>
@@ -923,7 +866,7 @@
       <property name="frameShadow">
        <enum>QFrame::Raised</enum>
       </property>
-      <widget class="QLabel" name="grid_07">
+      <widget class="QPushButton" name="grid_07">
        <property name="geometry">
         <rect>
          <x>0</x>
@@ -943,11 +886,8 @@
        <property name="text">
         <string>0</string>
        </property>
-       <property name="scaledContents">
-        <bool>false</bool>
-       </property>
-       <property name="alignment">
-        <set>Qt::AlignCenter</set>
+       <property name="flat">
+        <bool>true</bool>
        </property>
       </widget>
      </widget>
@@ -966,7 +906,7 @@
       <property name="frameShadow">
        <enum>QFrame::Raised</enum>
       </property>
-      <widget class="QLabel" name="grid_08">
+      <widget class="QPushButton" name="grid_08">
        <property name="geometry">
         <rect>
          <x>0</x>
@@ -986,11 +926,8 @@
        <property name="text">
         <string>0</string>
        </property>
-       <property name="scaledContents">
-        <bool>false</bool>
-       </property>
-       <property name="alignment">
-        <set>Qt::AlignCenter</set>
+       <property name="flat">
+        <bool>true</bool>
        </property>
       </widget>
      </widget>
@@ -1009,7 +946,7 @@
       <property name="frameShadow">
        <enum>QFrame::Raised</enum>
       </property>
-      <widget class="QLabel" name="grid_15">
+      <widget class="QPushButton" name="grid_15">
        <property name="geometry">
         <rect>
          <x>0</x>
@@ -1029,11 +966,8 @@
        <property name="text">
         <string>0</string>
        </property>
-       <property name="scaledContents">
-        <bool>false</bool>
-       </property>
-       <property name="alignment">
-        <set>Qt::AlignCenter</set>
+       <property name="flat">
+        <bool>true</bool>
        </property>
       </widget>
      </widget>
@@ -1052,7 +986,7 @@
       <property name="frameShadow">
        <enum>QFrame::Raised</enum>
       </property>
-      <widget class="QLabel" name="grid_16">
+      <widget class="QPushButton" name="grid_16">
        <property name="geometry">
         <rect>
          <x>0</x>
@@ -1072,11 +1006,8 @@
        <property name="text">
         <string>0</string>
        </property>
-       <property name="scaledContents">
-        <bool>false</bool>
-       </property>
-       <property name="alignment">
-        <set>Qt::AlignCenter</set>
+       <property name="flat">
+        <bool>true</bool>
        </property>
       </widget>
      </widget>
@@ -1095,7 +1026,7 @@
       <property name="frameShadow">
        <enum>QFrame::Raised</enum>
       </property>
-      <widget class="QLabel" name="grid_17">
+      <widget class="QPushButton" name="grid_17">
        <property name="geometry">
         <rect>
          <x>0</x>
@@ -1115,11 +1046,8 @@
        <property name="text">
         <string>0</string>
        </property>
-       <property name="scaledContents">
-        <bool>false</bool>
-       </property>
-       <property name="alignment">
-        <set>Qt::AlignCenter</set>
+       <property name="flat">
+        <bool>true</bool>
        </property>
       </widget>
      </widget>
@@ -1138,7 +1066,7 @@
       <property name="frameShadow">
        <enum>QFrame::Raised</enum>
       </property>
-      <widget class="QLabel" name="grid_24">
+      <widget class="QPushButton" name="grid_24">
        <property name="geometry">
         <rect>
          <x>0</x>
@@ -1158,11 +1086,8 @@
        <property name="text">
         <string>0</string>
        </property>
-       <property name="scaledContents">
-        <bool>false</bool>
-       </property>
-       <property name="alignment">
-        <set>Qt::AlignCenter</set>
+       <property name="flat">
+        <bool>true</bool>
        </property>
       </widget>
      </widget>
@@ -1181,7 +1106,7 @@
       <property name="frameShadow">
        <enum>QFrame::Raised</enum>
       </property>
-      <widget class="QLabel" name="grid_25">
+      <widget class="QPushButton" name="grid_25">
        <property name="geometry">
         <rect>
          <x>0</x>
@@ -1201,11 +1126,8 @@
        <property name="text">
         <string>0</string>
        </property>
-       <property name="scaledContents">
-        <bool>false</bool>
-       </property>
-       <property name="alignment">
-        <set>Qt::AlignCenter</set>
+       <property name="flat">
+        <bool>true</bool>
        </property>
       </widget>
      </widget>
@@ -1224,7 +1146,7 @@
       <property name="frameShadow">
        <enum>QFrame::Raised</enum>
       </property>
-      <widget class="QLabel" name="grid_26">
+      <widget class="QPushButton" name="grid_26">
        <property name="geometry">
         <rect>
          <x>0</x>
@@ -1244,11 +1166,8 @@
        <property name="text">
         <string>0</string>
        </property>
-       <property name="scaledContents">
-        <bool>false</bool>
-       </property>
-       <property name="alignment">
-        <set>Qt::AlignCenter</set>
+       <property name="flat">
+        <bool>true</bool>
        </property>
       </widget>
      </widget>
@@ -1286,7 +1205,7 @@
       <property name="frameShadow">
        <enum>QFrame::Raised</enum>
       </property>
-      <widget class="QLabel" name="grid_27">
+      <widget class="QPushButton" name="grid_27">
        <property name="geometry">
         <rect>
          <x>0</x>
@@ -1306,11 +1225,8 @@
        <property name="text">
         <string>0</string>
        </property>
-       <property name="scaledContents">
-        <bool>false</bool>
-       </property>
-       <property name="alignment">
-        <set>Qt::AlignCenter</set>
+       <property name="flat">
+        <bool>true</bool>
        </property>
       </widget>
      </widget>
@@ -1329,7 +1245,7 @@
       <property name="frameShadow">
        <enum>QFrame::Raised</enum>
       </property>
-      <widget class="QLabel" name="grid_28">
+      <widget class="QPushButton" name="grid_28">
        <property name="geometry">
         <rect>
          <x>0</x>
@@ -1349,11 +1265,8 @@
        <property name="text">
         <string>0</string>
        </property>
-       <property name="scaledContents">
-        <bool>false</bool>
-       </property>
-       <property name="alignment">
-        <set>Qt::AlignCenter</set>
+       <property name="flat">
+        <bool>true</bool>
        </property>
       </widget>
      </widget>
@@ -1372,7 +1285,7 @@
       <property name="frameShadow">
        <enum>QFrame::Raised</enum>
       </property>
-      <widget class="QLabel" name="grid_29">
+      <widget class="QPushButton" name="grid_29">
        <property name="geometry">
         <rect>
          <x>0</x>
@@ -1392,11 +1305,8 @@
        <property name="text">
         <string>0</string>
        </property>
-       <property name="scaledContents">
-        <bool>false</bool>
-       </property>
-       <property name="alignment">
-        <set>Qt::AlignCenter</set>
+       <property name="flat">
+        <bool>true</bool>
        </property>
       </widget>
      </widget>
@@ -1415,7 +1325,7 @@
       <property name="frameShadow">
        <enum>QFrame::Raised</enum>
       </property>
-      <widget class="QLabel" name="grid_36">
+      <widget class="QPushButton" name="grid_36">
        <property name="geometry">
         <rect>
          <x>0</x>
@@ -1435,11 +1345,8 @@
        <property name="text">
         <string>0</string>
        </property>
-       <property name="scaledContents">
-        <bool>false</bool>
-       </property>
-       <property name="alignment">
-        <set>Qt::AlignCenter</set>
+       <property name="flat">
+        <bool>true</bool>
        </property>
       </widget>
      </widget>
@@ -1458,7 +1365,7 @@
       <property name="frameShadow">
        <enum>QFrame::Raised</enum>
       </property>
-      <widget class="QLabel" name="grid_37">
+      <widget class="QPushButton" name="grid_37">
        <property name="geometry">
         <rect>
          <x>0</x>
@@ -1478,11 +1385,8 @@
        <property name="text">
         <string>0</string>
        </property>
-       <property name="scaledContents">
-        <bool>false</bool>
-       </property>
-       <property name="alignment">
-        <set>Qt::AlignCenter</set>
+       <property name="flat">
+        <bool>true</bool>
        </property>
       </widget>
      </widget>
@@ -1501,7 +1405,7 @@
       <property name="frameShadow">
        <enum>QFrame::Raised</enum>
       </property>
-      <widget class="QLabel" name="grid_38">
+      <widget class="QPushButton" name="grid_38">
        <property name="geometry">
         <rect>
          <x>0</x>
@@ -1521,11 +1425,8 @@
        <property name="text">
         <string>0</string>
        </property>
-       <property name="scaledContents">
-        <bool>false</bool>
-       </property>
-       <property name="alignment">
-        <set>Qt::AlignCenter</set>
+       <property name="flat">
+        <bool>true</bool>
        </property>
       </widget>
      </widget>
@@ -1544,7 +1445,7 @@
       <property name="frameShadow">
        <enum>QFrame::Raised</enum>
       </property>
-      <widget class="QLabel" name="grid_45">
+      <widget class="QPushButton" name="grid_45">
        <property name="geometry">
         <rect>
          <x>0</x>
@@ -1564,11 +1465,8 @@
        <property name="text">
         <string>0</string>
        </property>
-       <property name="scaledContents">
-        <bool>false</bool>
-       </property>
-       <property name="alignment">
-        <set>Qt::AlignCenter</set>
+       <property name="flat">
+        <bool>true</bool>
        </property>
       </widget>
      </widget>
@@ -1587,7 +1485,7 @@
       <property name="frameShadow">
        <enum>QFrame::Raised</enum>
       </property>
-      <widget class="QLabel" name="grid_46">
+      <widget class="QPushButton" name="grid_46">
        <property name="geometry">
         <rect>
          <x>0</x>
@@ -1607,11 +1505,8 @@
        <property name="text">
         <string>0</string>
        </property>
-       <property name="scaledContents">
-        <bool>false</bool>
-       </property>
-       <property name="alignment">
-        <set>Qt::AlignCenter</set>
+       <property name="flat">
+        <bool>true</bool>
        </property>
       </widget>
      </widget>
@@ -1630,7 +1525,7 @@
       <property name="frameShadow">
        <enum>QFrame::Raised</enum>
       </property>
-      <widget class="QLabel" name="grid_47">
+      <widget class="QPushButton" name="grid_47">
        <property name="geometry">
         <rect>
          <x>0</x>
@@ -1650,11 +1545,8 @@
        <property name="text">
         <string>0</string>
        </property>
-       <property name="scaledContents">
-        <bool>false</bool>
-       </property>
-       <property name="alignment">
-        <set>Qt::AlignCenter</set>
+       <property name="flat">
+        <bool>true</bool>
        </property>
       </widget>
      </widget>
@@ -1692,7 +1584,7 @@
       <property name="frameShadow">
        <enum>QFrame::Raised</enum>
       </property>
-      <widget class="QLabel" name="grid_30">
+      <widget class="QPushButton" name="grid_30">
        <property name="geometry">
         <rect>
          <x>0</x>
@@ -1712,11 +1604,8 @@
        <property name="text">
         <string>0</string>
        </property>
-       <property name="scaledContents">
-        <bool>false</bool>
-       </property>
-       <property name="alignment">
-        <set>Qt::AlignCenter</set>
+       <property name="flat">
+        <bool>true</bool>
        </property>
       </widget>
      </widget>
@@ -1735,7 +1624,7 @@
       <property name="frameShadow">
        <enum>QFrame::Raised</enum>
       </property>
-      <widget class="QLabel" name="grid_31">
+      <widget class="QPushButton" name="grid_31">
        <property name="geometry">
         <rect>
          <x>0</x>
@@ -1755,11 +1644,8 @@
        <property name="text">
         <string>0</string>
        </property>
-       <property name="scaledContents">
-        <bool>false</bool>
-       </property>
-       <property name="alignment">
-        <set>Qt::AlignCenter</set>
+       <property name="flat">
+        <bool>true</bool>
        </property>
       </widget>
      </widget>
@@ -1778,7 +1664,7 @@
       <property name="frameShadow">
        <enum>QFrame::Raised</enum>
       </property>
-      <widget class="QLabel" name="grid_32">
+      <widget class="QPushButton" name="grid_32">
        <property name="geometry">
         <rect>
          <x>0</x>
@@ -1798,11 +1684,8 @@
        <property name="text">
         <string>0</string>
        </property>
-       <property name="scaledContents">
-        <bool>false</bool>
-       </property>
-       <property name="alignment">
-        <set>Qt::AlignCenter</set>
+       <property name="flat">
+        <bool>true</bool>
        </property>
       </widget>
      </widget>
@@ -1821,7 +1704,7 @@
       <property name="frameShadow">
        <enum>QFrame::Raised</enum>
       </property>
-      <widget class="QLabel" name="grid_39">
+      <widget class="QPushButton" name="grid_39">
        <property name="geometry">
         <rect>
          <x>0</x>
@@ -1841,11 +1724,8 @@
        <property name="text">
         <string>0</string>
        </property>
-       <property name="scaledContents">
-        <bool>false</bool>
-       </property>
-       <property name="alignment">
-        <set>Qt::AlignCenter</set>
+       <property name="flat">
+        <bool>true</bool>
        </property>
       </widget>
      </widget>
@@ -1864,7 +1744,7 @@
       <property name="frameShadow">
        <enum>QFrame::Raised</enum>
       </property>
-      <widget class="QLabel" name="grid_40">
+      <widget class="QPushButton" name="grid_40">
        <property name="geometry">
         <rect>
          <x>0</x>
@@ -1884,11 +1764,8 @@
        <property name="text">
         <string>0</string>
        </property>
-       <property name="scaledContents">
-        <bool>false</bool>
-       </property>
-       <property name="alignment">
-        <set>Qt::AlignCenter</set>
+       <property name="flat">
+        <bool>true</bool>
        </property>
       </widget>
      </widget>
@@ -1907,7 +1784,7 @@
       <property name="frameShadow">
        <enum>QFrame::Raised</enum>
       </property>
-      <widget class="QLabel" name="grid_41">
+      <widget class="QPushButton" name="grid_41">
        <property name="geometry">
         <rect>
          <x>0</x>
@@ -1927,11 +1804,8 @@
        <property name="text">
         <string>0</string>
        </property>
-       <property name="scaledContents">
-        <bool>false</bool>
-       </property>
-       <property name="alignment">
-        <set>Qt::AlignCenter</set>
+       <property name="flat">
+        <bool>true</bool>
        </property>
       </widget>
      </widget>
@@ -1950,7 +1824,7 @@
       <property name="frameShadow">
        <enum>QFrame::Raised</enum>
       </property>
-      <widget class="QLabel" name="grid_48">
+      <widget class="QPushButton" name="grid_48">
        <property name="geometry">
         <rect>
          <x>0</x>
@@ -1970,11 +1844,8 @@
        <property name="text">
         <string>0</string>
        </property>
-       <property name="scaledContents">
-        <bool>false</bool>
-       </property>
-       <property name="alignment">
-        <set>Qt::AlignCenter</set>
+       <property name="flat">
+        <bool>true</bool>
        </property>
       </widget>
      </widget>
@@ -1993,7 +1864,7 @@
       <property name="frameShadow">
        <enum>QFrame::Raised</enum>
       </property>
-      <widget class="QLabel" name="grid_49">
+      <widget class="QPushButton" name="grid_49">
        <property name="geometry">
         <rect>
          <x>0</x>
@@ -2013,11 +1884,8 @@
        <property name="text">
         <string>0</string>
        </property>
-       <property name="scaledContents">
-        <bool>false</bool>
-       </property>
-       <property name="alignment">
-        <set>Qt::AlignCenter</set>
+       <property name="flat">
+        <bool>true</bool>
        </property>
       </widget>
      </widget>
@@ -2036,7 +1904,7 @@
       <property name="frameShadow">
        <enum>QFrame::Raised</enum>
       </property>
-      <widget class="QLabel" name="grid_50">
+      <widget class="QPushButton" name="grid_50">
        <property name="geometry">
         <rect>
          <x>0</x>
@@ -2056,11 +1924,8 @@
        <property name="text">
         <string>0</string>
        </property>
-       <property name="scaledContents">
-        <bool>false</bool>
-       </property>
-       <property name="alignment">
-        <set>Qt::AlignCenter</set>
+       <property name="flat">
+        <bool>true</bool>
        </property>
       </widget>
      </widget>
@@ -2098,7 +1963,7 @@
       <property name="frameShadow">
        <enum>QFrame::Raised</enum>
       </property>
-      <widget class="QLabel" name="grid_33">
+      <widget class="QPushButton" name="grid_33">
        <property name="geometry">
         <rect>
          <x>0</x>
@@ -2118,11 +1983,8 @@
        <property name="text">
         <string>0</string>
        </property>
-       <property name="scaledContents">
-        <bool>false</bool>
-       </property>
-       <property name="alignment">
-        <set>Qt::AlignCenter</set>
+       <property name="flat">
+        <bool>true</bool>
        </property>
       </widget>
      </widget>
@@ -2141,7 +2003,7 @@
       <property name="frameShadow">
        <enum>QFrame::Raised</enum>
       </property>
-      <widget class="QLabel" name="grid_34">
+      <widget class="QPushButton" name="grid_34">
        <property name="geometry">
         <rect>
          <x>0</x>
@@ -2161,11 +2023,8 @@
        <property name="text">
         <string>0</string>
        </property>
-       <property name="scaledContents">
-        <bool>false</bool>
-       </property>
-       <property name="alignment">
-        <set>Qt::AlignCenter</set>
+       <property name="flat">
+        <bool>true</bool>
        </property>
       </widget>
      </widget>
@@ -2184,7 +2043,7 @@
       <property name="frameShadow">
        <enum>QFrame::Raised</enum>
       </property>
-      <widget class="QLabel" name="grid_35">
+      <widget class="QPushButton" name="grid_35">
        <property name="geometry">
         <rect>
          <x>0</x>
@@ -2204,11 +2063,8 @@
        <property name="text">
         <string>0</string>
        </property>
-       <property name="scaledContents">
-        <bool>false</bool>
-       </property>
-       <property name="alignment">
-        <set>Qt::AlignCenter</set>
+       <property name="flat">
+        <bool>true</bool>
        </property>
       </widget>
      </widget>
@@ -2227,7 +2083,7 @@
       <property name="frameShadow">
        <enum>QFrame::Raised</enum>
       </property>
-      <widget class="QLabel" name="grid_42">
+      <widget class="QPushButton" name="grid_42">
        <property name="geometry">
         <rect>
          <x>0</x>
@@ -2247,11 +2103,8 @@
        <property name="text">
         <string>0</string>
        </property>
-       <property name="scaledContents">
-        <bool>false</bool>
-       </property>
-       <property name="alignment">
-        <set>Qt::AlignCenter</set>
+       <property name="flat">
+        <bool>true</bool>
        </property>
       </widget>
      </widget>
@@ -2270,7 +2123,7 @@
       <property name="frameShadow">
        <enum>QFrame::Raised</enum>
       </property>
-      <widget class="QLabel" name="grid_43">
+      <widget class="QPushButton" name="grid_43">
        <property name="geometry">
         <rect>
          <x>0</x>
@@ -2290,11 +2143,8 @@
        <property name="text">
         <string>0</string>
        </property>
-       <property name="scaledContents">
-        <bool>false</bool>
-       </property>
-       <property name="alignment">
-        <set>Qt::AlignCenter</set>
+       <property name="flat">
+        <bool>true</bool>
        </property>
       </widget>
      </widget>
@@ -2313,7 +2163,7 @@
       <property name="frameShadow">
        <enum>QFrame::Raised</enum>
       </property>
-      <widget class="QLabel" name="grid_44">
+      <widget class="QPushButton" name="grid_44">
        <property name="geometry">
         <rect>
          <x>0</x>
@@ -2333,11 +2183,8 @@
        <property name="text">
         <string>0</string>
        </property>
-       <property name="scaledContents">
-        <bool>false</bool>
-       </property>
-       <property name="alignment">
-        <set>Qt::AlignCenter</set>
+       <property name="flat">
+        <bool>true</bool>
        </property>
       </widget>
      </widget>
@@ -2356,7 +2203,7 @@
       <property name="frameShadow">
        <enum>QFrame::Raised</enum>
       </property>
-      <widget class="QLabel" name="grid_51">
+      <widget class="QPushButton" name="grid_51">
        <property name="geometry">
         <rect>
          <x>0</x>
@@ -2376,11 +2223,8 @@
        <property name="text">
         <string>0</string>
        </property>
-       <property name="scaledContents">
-        <bool>false</bool>
-       </property>
-       <property name="alignment">
-        <set>Qt::AlignCenter</set>
+       <property name="flat">
+        <bool>true</bool>
        </property>
       </widget>
      </widget>
@@ -2399,7 +2243,7 @@
       <property name="frameShadow">
        <enum>QFrame::Raised</enum>
       </property>
-      <widget class="QLabel" name="grid_52">
+      <widget class="QPushButton" name="grid_52">
        <property name="geometry">
         <rect>
          <x>0</x>
@@ -2419,11 +2263,8 @@
        <property name="text">
         <string>0</string>
        </property>
-       <property name="scaledContents">
-        <bool>false</bool>
-       </property>
-       <property name="alignment">
-        <set>Qt::AlignCenter</set>
+       <property name="flat">
+        <bool>true</bool>
        </property>
       </widget>
      </widget>
@@ -2442,7 +2283,7 @@
       <property name="frameShadow">
        <enum>QFrame::Raised</enum>
       </property>
-      <widget class="QLabel" name="grid_53">
+      <widget class="QPushButton" name="grid_53">
        <property name="geometry">
         <rect>
          <x>0</x>
@@ -2462,11 +2303,8 @@
        <property name="text">
         <string>0</string>
        </property>
-       <property name="scaledContents">
-        <bool>false</bool>
-       </property>
-       <property name="alignment">
-        <set>Qt::AlignCenter</set>
+       <property name="flat">
+        <bool>true</bool>
        </property>
       </widget>
      </widget>
@@ -2504,7 +2342,7 @@
       <property name="frameShadow">
        <enum>QFrame::Raised</enum>
       </property>
-      <widget class="QLabel" name="grid_54">
+      <widget class="QPushButton" name="grid_54">
        <property name="geometry">
         <rect>
          <x>0</x>
@@ -2524,11 +2362,8 @@
        <property name="text">
         <string>0</string>
        </property>
-       <property name="scaledContents">
-        <bool>false</bool>
-       </property>
-       <property name="alignment">
-        <set>Qt::AlignCenter</set>
+       <property name="flat">
+        <bool>true</bool>
        </property>
       </widget>
      </widget>
@@ -2547,7 +2382,7 @@
       <property name="frameShadow">
        <enum>QFrame::Raised</enum>
       </property>
-      <widget class="QLabel" name="grid_55">
+      <widget class="QPushButton" name="grid_55">
        <property name="geometry">
         <rect>
          <x>0</x>
@@ -2567,11 +2402,8 @@
        <property name="text">
         <string>0</string>
        </property>
-       <property name="scaledContents">
-        <bool>false</bool>
-       </property>
-       <property name="alignment">
-        <set>Qt::AlignCenter</set>
+       <property name="flat">
+        <bool>true</bool>
        </property>
       </widget>
      </widget>
@@ -2590,7 +2422,7 @@
       <property name="frameShadow">
        <enum>QFrame::Raised</enum>
       </property>
-      <widget class="QLabel" name="grid_56">
+      <widget class="QPushButton" name="grid_56">
        <property name="geometry">
         <rect>
          <x>0</x>
@@ -2610,11 +2442,8 @@
        <property name="text">
         <string>0</string>
        </property>
-       <property name="scaledContents">
-        <bool>false</bool>
-       </property>
-       <property name="alignment">
-        <set>Qt::AlignCenter</set>
+       <property name="flat">
+        <bool>true</bool>
        </property>
       </widget>
      </widget>
@@ -2633,7 +2462,7 @@
       <property name="frameShadow">
        <enum>QFrame::Raised</enum>
       </property>
-      <widget class="QLabel" name="grid_63">
+      <widget class="QPushButton" name="grid_63">
        <property name="geometry">
         <rect>
          <x>0</x>
@@ -2653,11 +2482,8 @@
        <property name="text">
         <string>0</string>
        </property>
-       <property name="scaledContents">
-        <bool>false</bool>
-       </property>
-       <property name="alignment">
-        <set>Qt::AlignCenter</set>
+       <property name="flat">
+        <bool>true</bool>
        </property>
       </widget>
      </widget>
@@ -2676,7 +2502,7 @@
       <property name="frameShadow">
        <enum>QFrame::Raised</enum>
       </property>
-      <widget class="QLabel" name="grid_64">
+      <widget class="QPushButton" name="grid_64">
        <property name="geometry">
         <rect>
          <x>0</x>
@@ -2696,11 +2522,8 @@
        <property name="text">
         <string>0</string>
        </property>
-       <property name="scaledContents">
-        <bool>false</bool>
-       </property>
-       <property name="alignment">
-        <set>Qt::AlignCenter</set>
+       <property name="flat">
+        <bool>true</bool>
        </property>
       </widget>
      </widget>
@@ -2719,7 +2542,7 @@
       <property name="frameShadow">
        <enum>QFrame::Raised</enum>
       </property>
-      <widget class="QLabel" name="grid_65">
+      <widget class="QPushButton" name="grid_65">
        <property name="geometry">
         <rect>
          <x>0</x>
@@ -2739,11 +2562,8 @@
        <property name="text">
         <string>0</string>
        </property>
-       <property name="scaledContents">
-        <bool>false</bool>
-       </property>
-       <property name="alignment">
-        <set>Qt::AlignCenter</set>
+       <property name="flat">
+        <bool>true</bool>
        </property>
       </widget>
      </widget>
@@ -2762,7 +2582,7 @@
       <property name="frameShadow">
        <enum>QFrame::Raised</enum>
       </property>
-      <widget class="QLabel" name="grid_72">
+      <widget class="QPushButton" name="grid_72">
        <property name="geometry">
         <rect>
          <x>0</x>
@@ -2782,11 +2602,8 @@
        <property name="text">
         <string>0</string>
        </property>
-       <property name="scaledContents">
-        <bool>false</bool>
-       </property>
-       <property name="alignment">
-        <set>Qt::AlignCenter</set>
+       <property name="flat">
+        <bool>true</bool>
        </property>
       </widget>
      </widget>
@@ -2805,7 +2622,7 @@
       <property name="frameShadow">
        <enum>QFrame::Raised</enum>
       </property>
-      <widget class="QLabel" name="grid_73">
+      <widget class="QPushButton" name="grid_73">
        <property name="geometry">
         <rect>
          <x>0</x>
@@ -2825,11 +2642,8 @@
        <property name="text">
         <string>0</string>
        </property>
-       <property name="scaledContents">
-        <bool>false</bool>
-       </property>
-       <property name="alignment">
-        <set>Qt::AlignCenter</set>
+       <property name="flat">
+        <bool>true</bool>
        </property>
       </widget>
      </widget>
@@ -2848,7 +2662,7 @@
       <property name="frameShadow">
        <enum>QFrame::Raised</enum>
       </property>
-      <widget class="QLabel" name="grid_74">
+      <widget class="QPushButton" name="grid_74">
        <property name="geometry">
         <rect>
          <x>0</x>
@@ -2868,11 +2682,8 @@
        <property name="text">
         <string>0</string>
        </property>
-       <property name="scaledContents">
-        <bool>false</bool>
-       </property>
-       <property name="alignment">
-        <set>Qt::AlignCenter</set>
+       <property name="flat">
+        <bool>true</bool>
        </property>
       </widget>
      </widget>
@@ -2910,7 +2721,7 @@
       <property name="frameShadow">
        <enum>QFrame::Raised</enum>
       </property>
-      <widget class="QLabel" name="grid_57">
+      <widget class="QPushButton" name="grid_57">
        <property name="geometry">
         <rect>
          <x>0</x>
@@ -2930,11 +2741,8 @@
        <property name="text">
         <string>0</string>
        </property>
-       <property name="scaledContents">
-        <bool>false</bool>
-       </property>
-       <property name="alignment">
-        <set>Qt::AlignCenter</set>
+       <property name="flat">
+        <bool>true</bool>
        </property>
       </widget>
      </widget>
@@ -2953,7 +2761,7 @@
       <property name="frameShadow">
        <enum>QFrame::Raised</enum>
       </property>
-      <widget class="QLabel" name="grid_58">
+      <widget class="QPushButton" name="grid_58">
        <property name="geometry">
         <rect>
          <x>0</x>
@@ -2973,11 +2781,8 @@
        <property name="text">
         <string>0</string>
        </property>
-       <property name="scaledContents">
-        <bool>false</bool>
-       </property>
-       <property name="alignment">
-        <set>Qt::AlignCenter</set>
+       <property name="flat">
+        <bool>true</bool>
        </property>
       </widget>
      </widget>
@@ -2996,7 +2801,7 @@
       <property name="frameShadow">
        <enum>QFrame::Raised</enum>
       </property>
-      <widget class="QLabel" name="grid_59">
+      <widget class="QPushButton" name="grid_59">
        <property name="geometry">
         <rect>
          <x>0</x>
@@ -3016,11 +2821,8 @@
        <property name="text">
         <string>0</string>
        </property>
-       <property name="scaledContents">
-        <bool>false</bool>
-       </property>
-       <property name="alignment">
-        <set>Qt::AlignCenter</set>
+       <property name="flat">
+        <bool>true</bool>
        </property>
       </widget>
      </widget>
@@ -3039,7 +2841,7 @@
       <property name="frameShadow">
        <enum>QFrame::Raised</enum>
       </property>
-      <widget class="QLabel" name="grid_66">
+      <widget class="QPushButton" name="grid_66">
        <property name="geometry">
         <rect>
          <x>0</x>
@@ -3059,11 +2861,8 @@
        <property name="text">
         <string>0</string>
        </property>
-       <property name="scaledContents">
-        <bool>false</bool>
-       </property>
-       <property name="alignment">
-        <set>Qt::AlignCenter</set>
+       <property name="flat">
+        <bool>true</bool>
        </property>
       </widget>
      </widget>
@@ -3082,7 +2881,7 @@
       <property name="frameShadow">
        <enum>QFrame::Raised</enum>
       </property>
-      <widget class="QLabel" name="grid_67">
+      <widget class="QPushButton" name="grid_67">
        <property name="geometry">
         <rect>
          <x>0</x>
@@ -3102,11 +2901,8 @@
        <property name="text">
         <string>0</string>
        </property>
-       <property name="scaledContents">
-        <bool>false</bool>
-       </property>
-       <property name="alignment">
-        <set>Qt::AlignCenter</set>
+       <property name="flat">
+        <bool>true</bool>
        </property>
       </widget>
      </widget>
@@ -3125,7 +2921,7 @@
       <property name="frameShadow">
        <enum>QFrame::Raised</enum>
       </property>
-      <widget class="QLabel" name="grid_68">
+      <widget class="QPushButton" name="grid_68">
        <property name="geometry">
         <rect>
          <x>0</x>
@@ -3145,11 +2941,8 @@
        <property name="text">
         <string>0</string>
        </property>
-       <property name="scaledContents">
-        <bool>false</bool>
-       </property>
-       <property name="alignment">
-        <set>Qt::AlignCenter</set>
+       <property name="flat">
+        <bool>true</bool>
        </property>
       </widget>
      </widget>
@@ -3168,7 +2961,7 @@
       <property name="frameShadow">
        <enum>QFrame::Raised</enum>
       </property>
-      <widget class="QLabel" name="grid_75">
+      <widget class="QPushButton" name="grid_75">
        <property name="geometry">
         <rect>
          <x>0</x>
@@ -3188,11 +2981,8 @@
        <property name="text">
         <string>0</string>
        </property>
-       <property name="scaledContents">
-        <bool>false</bool>
-       </property>
-       <property name="alignment">
-        <set>Qt::AlignCenter</set>
+       <property name="flat">
+        <bool>true</bool>
        </property>
       </widget>
      </widget>
@@ -3211,7 +3001,7 @@
       <property name="frameShadow">
        <enum>QFrame::Raised</enum>
       </property>
-      <widget class="QLabel" name="grid_76">
+      <widget class="QPushButton" name="grid_76">
        <property name="geometry">
         <rect>
          <x>0</x>
@@ -3231,11 +3021,8 @@
        <property name="text">
         <string>0</string>
        </property>
-       <property name="scaledContents">
-        <bool>false</bool>
-       </property>
-       <property name="alignment">
-        <set>Qt::AlignCenter</set>
+       <property name="flat">
+        <bool>true</bool>
        </property>
       </widget>
      </widget>
@@ -3254,7 +3041,7 @@
       <property name="frameShadow">
        <enum>QFrame::Raised</enum>
       </property>
-      <widget class="QLabel" name="grid_77">
+      <widget class="QPushButton" name="grid_77">
        <property name="geometry">
         <rect>
          <x>0</x>
@@ -3274,11 +3061,8 @@
        <property name="text">
         <string>0</string>
        </property>
-       <property name="scaledContents">
-        <bool>false</bool>
-       </property>
-       <property name="alignment">
-        <set>Qt::AlignCenter</set>
+       <property name="flat">
+        <bool>true</bool>
        </property>
       </widget>
      </widget>
@@ -3316,7 +3100,7 @@
       <property name="frameShadow">
        <enum>QFrame::Raised</enum>
       </property>
-      <widget class="QLabel" name="grid_60">
+      <widget class="QPushButton" name="grid_60">
        <property name="geometry">
         <rect>
          <x>0</x>
@@ -3336,11 +3120,8 @@
        <property name="text">
         <string>0</string>
        </property>
-       <property name="scaledContents">
-        <bool>false</bool>
-       </property>
-       <property name="alignment">
-        <set>Qt::AlignCenter</set>
+       <property name="flat">
+        <bool>true</bool>
        </property>
       </widget>
      </widget>
@@ -3359,7 +3140,7 @@
       <property name="frameShadow">
        <enum>QFrame::Raised</enum>
       </property>
-      <widget class="QLabel" name="grid_61">
+      <widget class="QPushButton" name="grid_61">
        <property name="geometry">
         <rect>
          <x>0</x>
@@ -3379,11 +3160,8 @@
        <property name="text">
         <string>0</string>
        </property>
-       <property name="scaledContents">
-        <bool>false</bool>
-       </property>
-       <property name="alignment">
-        <set>Qt::AlignCenter</set>
+       <property name="flat">
+        <bool>true</bool>
        </property>
       </widget>
      </widget>
@@ -3402,7 +3180,7 @@
       <property name="frameShadow">
        <enum>QFrame::Raised</enum>
       </property>
-      <widget class="QLabel" name="grid_62">
+      <widget class="QPushButton" name="grid_62">
        <property name="geometry">
         <rect>
          <x>0</x>
@@ -3422,11 +3200,8 @@
        <property name="text">
         <string>0</string>
        </property>
-       <property name="scaledContents">
-        <bool>false</bool>
-       </property>
-       <property name="alignment">
-        <set>Qt::AlignCenter</set>
+       <property name="flat">
+        <bool>true</bool>
        </property>
       </widget>
      </widget>
@@ -3445,7 +3220,7 @@
       <property name="frameShadow">
        <enum>QFrame::Raised</enum>
       </property>
-      <widget class="QLabel" name="grid_69">
+      <widget class="QPushButton" name="grid_69">
        <property name="geometry">
         <rect>
          <x>0</x>
@@ -3465,11 +3240,8 @@
        <property name="text">
         <string>0</string>
        </property>
-       <property name="scaledContents">
-        <bool>false</bool>
-       </property>
-       <property name="alignment">
-        <set>Qt::AlignCenter</set>
+       <property name="flat">
+        <bool>true</bool>
        </property>
       </widget>
      </widget>
@@ -3488,7 +3260,7 @@
       <property name="frameShadow">
        <enum>QFrame::Raised</enum>
       </property>
-      <widget class="QLabel" name="grid_70">
+      <widget class="QPushButton" name="grid_70">
        <property name="geometry">
         <rect>
          <x>0</x>
@@ -3508,11 +3280,8 @@
        <property name="text">
         <string>0</string>
        </property>
-       <property name="scaledContents">
-        <bool>false</bool>
-       </property>
-       <property name="alignment">
-        <set>Qt::AlignCenter</set>
+       <property name="flat">
+        <bool>true</bool>
        </property>
       </widget>
      </widget>
@@ -3531,7 +3300,7 @@
       <property name="frameShadow">
        <enum>QFrame::Raised</enum>
       </property>
-      <widget class="QLabel" name="grid_71">
+      <widget class="QPushButton" name="grid_71">
        <property name="geometry">
         <rect>
          <x>0</x>
@@ -3551,11 +3320,8 @@
        <property name="text">
         <string>0</string>
        </property>
-       <property name="scaledContents">
-        <bool>false</bool>
-       </property>
-       <property name="alignment">
-        <set>Qt::AlignCenter</set>
+       <property name="flat">
+        <bool>true</bool>
        </property>
       </widget>
      </widget>
@@ -3574,7 +3340,7 @@
       <property name="frameShadow">
        <enum>QFrame::Raised</enum>
       </property>
-      <widget class="QLabel" name="grid_78">
+      <widget class="QPushButton" name="grid_78">
        <property name="geometry">
         <rect>
          <x>0</x>
@@ -3594,11 +3360,8 @@
        <property name="text">
         <string>0</string>
        </property>
-       <property name="scaledContents">
-        <bool>false</bool>
-       </property>
-       <property name="alignment">
-        <set>Qt::AlignCenter</set>
+       <property name="flat">
+        <bool>true</bool>
        </property>
       </widget>
      </widget>
@@ -3617,7 +3380,7 @@
       <property name="frameShadow">
        <enum>QFrame::Raised</enum>
       </property>
-      <widget class="QLabel" name="grid_79">
+      <widget class="QPushButton" name="grid_79">
        <property name="geometry">
         <rect>
          <x>0</x>
@@ -3637,11 +3400,8 @@
        <property name="text">
         <string>0</string>
        </property>
-       <property name="scaledContents">
-        <bool>false</bool>
-       </property>
-       <property name="alignment">
-        <set>Qt::AlignCenter</set>
+       <property name="flat">
+        <bool>true</bool>
        </property>
       </widget>
      </widget>
@@ -3660,7 +3420,7 @@
       <property name="frameShadow">
        <enum>QFrame::Raised</enum>
       </property>
-      <widget class="QLabel" name="grid_80">
+      <widget class="QPushButton" name="grid_80">
        <property name="geometry">
         <rect>
          <x>0</x>
@@ -3680,11 +3440,8 @@
        <property name="text">
         <string>0</string>
        </property>
-       <property name="scaledContents">
-        <bool>false</bool>
-       </property>
-       <property name="alignment">
-        <set>Qt::AlignCenter</set>
+       <property name="flat">
+        <bool>true</bool>
        </property>
       </widget>
      </widget>

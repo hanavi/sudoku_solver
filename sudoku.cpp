@@ -308,6 +308,12 @@ void SudokuGrid::solve(int i)
     }
 }
 
+void SudokuGrid::set_entry(int pos, int value)
+{
+   finished = false;
+   grid[pos] = value;
+}
+
 int SudokuGrid::get_entry(int n)
 {
    return grid[n];

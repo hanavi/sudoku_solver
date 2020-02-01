@@ -29,6 +29,7 @@ public:
     void validate();
 
     int get_entry(int n);
+    void set_entry(int,int);
     int get_solution(int n);
 
     std::unique_ptr<std::vector<int>> get_valid_numbers(int n);
