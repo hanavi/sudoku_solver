@@ -18,5 +18,11 @@
 
 ## Running
 
-![solver screencap](images/screenshot.png)
+```
+$ ./sudoku grid.txt
+```
+
+![before screencap](images/screenshot.png)
+
+![after screencap](images/screenshot2.png)
 
