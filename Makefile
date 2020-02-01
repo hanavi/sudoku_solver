@@ -1,10 +1,10 @@
 
 CFLAGS=-Wall -Werror
 
-all: main
+all: ssolver
 
-main: main.o sudoku.o
-	g++ $(CFLAGS) -o main main.o sudoku.o
+ssolver: main.o sudoku.o
+	g++ $(CFLAGS) -o ssolver main.o sudoku.o
 
 main.o: main.cpp
 	g++ $(CFLAGS) -c main.cpp
@@ -14,4 +14,4 @@ sudoku.o: sudoku.h sudoku.cpp
 
 
 clean:
-	rm main *.o
+	rm ssolver *.o
