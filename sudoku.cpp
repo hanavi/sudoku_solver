@@ -9,6 +9,10 @@
 
 SudokuGrid::SudokuGrid()
 {
+   for (int i = 0; i < 81; ++i)
+   {
+        grid.push_back(0);
+   }
 }
 
 void SudokuGrid::load_file(std::string filename)
@@ -24,7 +28,7 @@ void SudokuGrid::load_file(std::string filename)
    for (int i = 0; i < 81; ++i)
    {
         file >> tmp;
-        grid.push_back(tmp);
+        grid[i] = tmp;
    }
 
 }
@@ -265,15 +269,16 @@ std::unique_ptr<std::vector<int>> SudokuGrid::get_valid_numbers(int n)
 
 void SudokuGrid::solve(int i)
 {
-    if (finished)
-        return;
+    // if (finished)
+    //     return;
 
     // std::cout << "working on : " << i << std::endl;
 
-    if (i == 81)
+    if (i >= 81)
     {
         finished = true;
         solved_grid = grid;
+        num_solutions += 1;
         // print_grid();
         return;
     }
@@ -316,4 +321,9 @@ int SudokuGrid::get_solution(int n)
       return grid[n];
    else
       return solved_grid[n];
+}
+
+int SudokuGrid::get_solution_count()
+{
+   return num_solutions;
 }

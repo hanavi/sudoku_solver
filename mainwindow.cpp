@@ -96,6 +96,7 @@ void MainWindow::solveClicked()
 {
     grid.solve();
     update_grid(true);
+    std::cout << grid.get_solution_count() << std::endl;
 }
 
 void MainWindow::resetClicked()

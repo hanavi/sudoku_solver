@@ -35,12 +35,15 @@ public:
     std::unique_ptr<std::vector<int>> get_valid_numbers(int n);
     void solve(int i = 0);
 
+    int get_solution_count();
 
 private:
     std::vector<int> grid;
     std::vector<int> solved_grid;
 
     bool finished = false;
+
+    int num_solutions = 0;
 
 };
 
